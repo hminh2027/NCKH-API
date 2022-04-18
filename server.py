@@ -28,7 +28,6 @@ def detection(text):
 def home():
     print('abs dirname: ', os.path.dirname(os.path.abspath(__file__)))
     return 'TNCKH API!'
-#anh
 
 #lay anh ve may client
 @app.route('/getID/Image/<filename>',methods=['GET'])
