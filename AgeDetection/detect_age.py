@@ -1,7 +1,6 @@
 # USAGE
 # python detect_age.py --image images/adrian.png --face face_detector --age age_detector
 
-# import the necessary packages
 import numpy as np
 import argparse
 import cv2
@@ -9,12 +8,6 @@ import os
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-#ap.add_argument("-i", "--image", required=True,
-#	help="path to input image")
-#ap.add_argument("-f", "--face", required=True,
-#	help="path to face detector model directory")
-#ap.add_argument("-a", "--age", required=True,
-#	help="path to age detector model directory")
 ap.add_argument("-c", "--confidence", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
 args = vars(ap.parse_args())
@@ -93,11 +86,4 @@ def show_Image(img, filename):
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
         # save to new img
-        #cv2.imwrite("images_train/"+filename+"", image)
         return text;
-        # display the output image
-        #cv2.imshow("Image", image)
-
-
-
-        #cv2.waitKey(0)

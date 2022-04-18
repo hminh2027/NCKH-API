@@ -35,8 +35,3 @@ def detection(text):
     except Exception as e:
         return "error"
         print(e)
-        
-
-#test_sentences = ['alo', 'khai giang mua', 'khai giang mua vcl', 'dit cu may']
-#labels = keras_text_classifier.classify(test_sentences, label_dict=None)
-#print(labels)  

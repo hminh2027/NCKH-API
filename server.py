@@ -24,9 +24,10 @@ from PhatHienTuNguToxic import demo1
 def detection(text):
     return demo1.detection(text)
 
-@app.route('/xxx')
-def hello_world():
-    return 'Hello, World!'
+@app.route('/')
+def home():
+    print('abs dirname: ', os.path.dirname(os.path.abspath(__file__)))
+    return 'TNCKH API!'
 #anh
 
 #lay anh ve may client
