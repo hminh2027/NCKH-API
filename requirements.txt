@@ -2,11 +2,10 @@ beautifulsoup4==4.11.1
 Flask==1.1.4
 gensim==3.5.0
 keras
-#heroku logs --tailnumpy==1.22.3
 python_crfsuite==0.9.8
 sklearn_crfsuite==0.3.6
 Werkzeug==1.0.1
 markupsafe==2.0.1
 tensorflow-cpu
 opencv-python
-#python 3.9.10
+gunicorn
