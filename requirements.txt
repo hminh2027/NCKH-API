@@ -7,5 +7,6 @@ sklearn_crfsuite==0.3.6
 Werkzeug==1.0.1
 markupsafe==2.0.1
 tensorflow-cpu
-opencv-python
+opencv-python-headless
 gunicorn
+libgl1
