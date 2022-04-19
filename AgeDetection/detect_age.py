@@ -18,16 +18,16 @@ AGE_BUCKETS = ["(0-2)", "(4-6)", "(8-12)", "(15-20)", "(25-32)",
 
 # load our serialized face detector model from disk
 print("[INFO] loading face detector model...")
-prototxtPath = os.path.sep.join(['AgeDetection/face_detector', "deploy.prototxt"])
-weightsPath = os.path.sep.join(['AgeDetection/face_detector',
+prototxtPath = os.path.sep.join(['face_detector', "deploy.prototxt"])
+weightsPath = os.path.sep.join(['face_detector',
 	"res10_300x300_ssd_iter_140000.caffemodel"])
 faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 
 
 # load our serialized age detector model from disk
 print("[INFO] loading age detector model...")
-prototxtPath = os.path.sep.join(['AgeDetection/age_detector', "age_deploy.prototxt"])
-weightsPath = os.path.sep.join(['AgeDetection/age_detector', "age_net.caffemodel"])
+prototxtPath = os.path.sep.join(['age_detector', "age_deploy.prototxt"])
+weightsPath = os.path.sep.join(['age_detector', "age_net.caffemodel"])
 ageNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 
 

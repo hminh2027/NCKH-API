@@ -28,7 +28,7 @@ def getIDImage(filename):
 	resp= (detect_age.show_Image("images/"+filename, filename))
 	return jsonify(resp)
     
-from AgeDetection import detect_age
+import detect_age
 
 #nhan anh tu client
 @app.route('/agePrediction',methods=['GET','POST'])
