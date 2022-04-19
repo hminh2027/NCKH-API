@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 #Goi cac thu vien
-import demo1
+from AgeDetection import demo1
 
 @app.route('/toxicDetection/<text>',methods=['GET', 'POST'])
 def detection(text):

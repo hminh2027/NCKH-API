@@ -3,12 +3,12 @@ Flask==1.1.4
 gensim==3.5.0
 keras==2.6.0
 Keras-Preprocessing==1.1.2
-numpy==1.19.3
+numpy==1.22.3
 python_crfsuite==0.9.8
 sklearn_crfsuite==0.3.6
 Werkzeug==1.0.1
 markupsafe==2.0.1
 tensorflow-cpu
-scipy
-pandas
+scipy==1.8.0
+pandas====1.4.2
 opencv-python-headless
