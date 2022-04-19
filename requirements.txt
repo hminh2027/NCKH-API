@@ -2,7 +2,7 @@ beautifulsoup4==4.11.1
 Flask==1.1.4
 gensim==3.5.0
 keras
-#numpy==1.22.3
+#heroku logs --tailnumpy==1.22.3
 python_crfsuite==0.9.8
 sklearn_crfsuite==0.3.6
 Werkzeug==1.0.1
