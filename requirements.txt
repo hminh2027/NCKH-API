@@ -1,8 +1,7 @@
 beautifulsoup4==4.11.1
 Flask==1.1.4
 gensim==3.5.0
-keras==2.6.0
-Keras-Preprocessing==1.1.2
+keras
 numpy
 python_crfsuite==0.9.8
 sklearn_crfsuite==0.3.6
